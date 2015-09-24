@@ -5,11 +5,96 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Bootstrap 101 Template</title>
-    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+    <link rel="stylesheet" href="mypage.css" />
+    <!-- jQuery読み込み -->
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <!-- BootstrapのJS読み込み -->
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
   </head>
   <body>
-    <h1>Hello, world!</h1>
-
+    <header>
+      <nav>
+        <div>
+        <ul class="nav nav-pills navbar-inverse">
+          <li role="presentation"><a href="index.html">HOME</a></li>
+          <li role="presentation"><a href="#">ABOUT</a></li>
+          <li role="presentation"><a href="#">CONTACT</a></li>
+        </ul>
+        </div>
+      </nav>
+    </header>
+    <div class="container">
+      <div class="me">
+        <div class="col-sm-4" id="logo">        
+          <img src="photo.png" alt="profile" />
+        </div>
+        <div class="col-sm-8" id="intro">
+          <h1>Yuta Funase</h1>
+          <p>I am Yuta from Quipper Ltd., 
+          in charge of South East Asia business development. 
+          I'm currently based in Jakarta. 
+          My passion is in education and 
+          bringing the impact to emerging countries 
+          by using technology is one of my life-time-goals. I have a 2-year-old kid. </p>
+        </div>
+      </div>
+      <div class="feature">
+      <div class="detail col-sm-4">
+        <h2>Career</h2>
+        <p>
+          <ul>
+            <li>Kyoto University</li>
+            <li>McKinsey&Company</li>
+            <li>Quipper Ltd.</li>
+          </ul>
+        </p>
+      </div>
+      <div class="detail col-sm-4">
+        <h2>Skills</h2>
+        <p>
+          <ul>
+            <li>SQL</li>
+            <li>Excel, powerpoint</li>
+            <li>Business English</li>
+            <li>little bit of Bahasa Indonesia</li>
+          </ul>
+        </p>
+      </div>
+      <div class="detail col-sm-4">
+        <h2>Hobby</h2>
+        <p>
+          <ul>
+            <li>Running</li>
+            <li>Rugby</li>
+            <li>Motor-cycle</li>
+            <li>Photo</li>
+          </ul>
+        </p>
+      </div>
+      </div>
+      <div class="application">
+        <div id="application1">
+          <h2>Application 1</h2>
+          <p>description description</p>
+        </div>
+        <div id="application2">
+          <h2>Application 2</h2>
+          <p>description description</p>
+        </div>
+        <div id="application3">
+          <h2>Application 3</h2>
+          <p>description description</p>
+        </div>
+        <div id="application4">
+          <h2>Application 4</h2>
+          <p>description description</p>
+        </div>
+      </div>
+    </div>
+    <footer>
+        
+    </footer>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
   </body>
 </html>
