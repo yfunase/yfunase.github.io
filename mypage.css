@@ -40,7 +40,7 @@ nav a {
     margin:10px;
     padding:10px 10px 60px 10px;
     font-size:14px;
-    background-color: #fff;
+    background-color: #C1DB81;
     max-width:220px;
     max-height:180px;
     box-shadow:0px 0px 5px rgba(0, 0, 0, 0.2);
@@ -75,4 +75,13 @@ body {
 
 p {
     color: #555;
+}
+
+.app {
+    padding:20px;
+}
+
+.app h2 {
+    font-size:20px;
+    text-align:center;
 }
